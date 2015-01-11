@@ -5,14 +5,17 @@
 <hr>
 
 <p>Get <strong>Vimium</strong> for Chrome - http://j.mp/1DN4xZ8 </p>
-<ul>Key mapping:
+<p>
+	Key mapping:
+</p>
+<ul>
 	<li>for left hand
 	<li>for gamers
 </ul>
 
-<quote>
+<blockquote>
 	hell for your minimus
-</quote>
+</blockquote>
 
 <hr>
 
@@ -21,7 +24,7 @@
 </h2>
 
 <p>
-	<code>e</code> - is a super key 
+	<code>e</code> - is a super key. you can change it anytime
 </p>
 <p>
 	everything is <code>wasd</code> and nearly used keys
