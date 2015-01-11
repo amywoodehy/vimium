@@ -6,7 +6,7 @@
 
 <p>Get <strong>Vimium</strong> for Chrome - http://j.mp/1DN4xZ8 </p>
 <p>
-	Key mapping:
+	Benefits:
 </p>
 <ul>
 	<li>for left hand
