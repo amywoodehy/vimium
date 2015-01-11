@@ -1,0 +1,224 @@
+####################################################################
+##       custom vim key mapping for Vimium                        ##
+##                  for left hand                                 ##
+##                        creater by AmyWoodehy (at) gmail.com    ##
+##                   hell for your minimus                        ##
+##                    http://j.mp/1DN4xZ8                         ##
+##                                                                ##
+##  note: e - is superkey                                         ##
+##  everything is wasd and nearly used keys                       ##
+##  in advanced settings of vimium set                            ##
+##    "Characters used for link hints" to                         ##
+##                                         dsaewqczx              ##
+##                                                                ##
+####################################################################
+unmap all
+
+#for oldfags
+#
+map j scrollDown
+map k scrollUp
+map h scrollLeft
+map l scrollRight
+
+map K scrollToTop
+map J scrollToBottom
+map H scrollToLeft
+map L scrollToRight
+#
+###
+
+#
+#   navigation
+#
+map w scrollPageUp
+map a goPrevious
+map s scrollPageDown
+map d goNext
+
+map W nextTab
+map S previousTab
+map A goBack
+map D goForward
+
+#
+#   click and reload
+#
+map r reload
+map f LinkHints.activateMode
+map F LinkHints.activateModeToOpenInNewTab
+
+#
+#   copy-past url
+#
+map C copyCurrentUrl
+map cf LinkHints.activateModeToCopyLinkUrl
+map v openCopiedUrlInCurrentTab
+map V openCopiedUrlInNewTab
+
+#
+#   omnibar
+#
+map b Vomnibar.activateBookmarks
+map B Vomnibar.activateBookmarksInNewTab
+map n Vomnibar.activate
+map N Vomnibar.activateInNewTab
+map ee Vomnibar.activateEditUrl
+map eE Vomnibar.activateEditUrlInNewTab
+
+#
+#   find
+#
+map g enterFindMode
+map m performFind
+map M performBackwardsFind
+
+#
+#   tabs
+#
+map t createTab
+map T Vomnibar.activateTabSelection
+map eet duplicateTab
+map et togglePinTab
+map eT LinkHints.activateModeToOpenIncognito
+map x removeTab
+map X restoreTab
+
+
+#
+#   misc
+#
+map es toggleViewSource
+map ? showHelp
+map ew goUP
+map eW goToRoot
+map eq focusInput
+map q enterInsertMode
+
+#
+#   marks. never used
+#
+map ` Marks.activateGotoMode
+map ~ Marks.activateCreateMode
+
+
+#
+#   not used
+#
+
+:	Open a link in a new tab & switch to it (LinkHints.activateModeToOpenInNewForegroundTab)
+<a-f>	:	Open multiple links in a new tab (LinkHints.activateModeWithQueue)
+:	Download link url (LinkHints.activateModeToDownloadLink)
+:	Open a link in incognito window (LinkHints.activateModeToOpenIncognito)
+
+
+
+	:	Cycle forward to the next frame on the page (nextFrame)
+
+Using find
+
+
+
+
+0	:	Go to the first tab (firstTab)
+5	:	Go to the last tab (lastTab)
+
+
+	:	Move tab to new window (moveTabToNewWindow)
+<a-p>	:	Pin/unpin current tab (togglePinTab)
+:	Close tabs on the left (closeTabsOnLeft)
+:	Close tabs on the right (closeTabsOnRight)
+:	Close all other tabs (closeOtherTabs)
+
+####################################################################
+##      RUSSIAN SUPPORT                                           ##
+##                      IGNORE IT                                 ##
+##                                IF NOT USING                    ##
+####################################################################
+
+#for oldfags
+#
+map о scrollDown
+map л scrollUp
+map р scrollLeft
+map д scrollRight
+
+map Л scrollToTop
+map О scrollToBottom
+map Р scrollToLeft
+map Д scrollToRight
+#
+###
+
+#
+#   navigation
+#
+map ц scrollPageUp
+map ф goPrevious
+map ы scrollPageDown
+map в goNext
+
+map Ц nextTab
+map Ы previousTab
+map Ф goBack
+map В goForward
+
+#
+#   click and reload
+#
+map К reload
+map а LinkHints.activateMode
+map А LinkHints.activateModeToOpenInNewTab
+
+#
+#   copy-past url
+#
+map С copyCurrentUrl
+map сА LinkHints.activateModeToCopyLinkUrl
+map м openCopiedUrlInCurrentTab
+map М openCopiedUrlInNewTab
+
+#
+#   omnibar
+#
+map и Vomnibar.activateBookmarks
+map И Vomnibar.activateBookmarksInNewTab
+map т Vomnibar.activate
+map Т Vomnibar.activateInNewTab
+map уу Vomnibar.activateEditUrl
+map уУ Vomnibar.activateEditUrlInNewTab
+
+#
+#   find
+#
+map п enterFindMode
+map ь performFind
+map Ь performBackwardsFind
+
+#
+#   tabs
+#
+map е createTab
+map Е Vomnibar.activateTabSelection
+map ууе duplicateTab
+map уе togglePinTab
+map уЕ LinkHints.activateModeToOpenIncognito
+map ч removeTab
+map Ч restoreTab
+
+
+#
+#   misc
+#
+map уы toggleViewSource
+map ? showHelp
+map уц goUP
+map уЦ goToRoot
+map уЙ focusInput
+map й enterInsertMode
+
+#
+#   marks. never used
+#
+map ё Marks.activateGotoMode
+map Ё Marks.activateCreateMode
