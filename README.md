@@ -42,7 +42,7 @@
 <ol>
 	<li>Get Vimium</li>
 	<li>Open Vimium option</li>
-	<li>Paste everything from keymapping to <code>Custom key
+	<li>Paste everything from <code>keymapping.txt<code> to <code>Custom key
 mappings<code></li>
 	<li>Click <code>Show advanced options…</code></li>
 	<li>In the field <code>Characters used
