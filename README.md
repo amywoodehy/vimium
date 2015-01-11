@@ -33,3 +33,18 @@
 <p>
 	in advanced settings of <strong>Vimium</strong> set "Characters used for link hints" to <code>dsaewqczx</code>
 </p>
+
+<hr>
+
+<h2>
+	Install:
+</h2>
+<ol>
+	<li>Get Vimium</li>
+	<li>Open Vimium option</li>
+	<li>Paste everything from keymapping to <code>Custom key
+mappings<code></li>
+	<li>Click <code>Show advanced options…</code></li>
+	<li>In the field <code>Characters used
+for link hints</code> paste <code>dsaewqczx</code></li>
+</ol>
