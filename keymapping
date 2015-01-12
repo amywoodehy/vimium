@@ -36,8 +36,8 @@ map a goPrevious
 map s scrollPageDown
 map d goNext
 
-map W nextTab
-map S previousTab
+map S nextTab
+map W previousTab
 map A goBack
 map D goForward
 
@@ -158,8 +158,8 @@ map ф goPrevious
 map ы scrollPageDown
 map в goNext
 
-map Ц nextTab
-map Ы previousTab
+map Ы nextTab
+map Ц previousTab
 map Ф goBack
 map В goForward
 
